@@ -21,7 +21,6 @@ jobs:
     steps:
       - checkout
       - run: npm i
-      - run: npm test
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
       - run: npm run build
       - run: npm publish
