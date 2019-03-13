@@ -10,5 +10,5 @@ export default function defaultFormatter(
   if (value !== 1) {
     unit += 's'
   }
-  return value + ' ' + unit + ' ' + suffix
+  return value + '  ' + unit + ' ' + suffix
 }
